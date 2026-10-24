@@ -187,3 +187,12 @@ Keep school.js, school.css, school-mirror.jpg, school-questions.jpg, and school-
 The home page focuses on the feature carousel and a prominent Explore missions button. Missions, Career Explorer, My skills profile, and My next steps open as separate views inside the same app. The Home button or logo returns to the carousel. Browser Back and Forward navigate between views. Keep spa.js and spa.css with the other app files.
 
 
+
+
+## Screenshot user manual
+
+- [Download the PowerPoint user guide](FutureMe-Lab-User-Guide.pptx).
+- [Read the PDF user guide](FutureMe-Lab-User-Guide.pdf).
+- [Download the original screenshots](FutureMe-Lab-Screenshots.zip).
+
+The 47-slide manual uses actual app screenshots and numbered steps for Home, grade/age setup, eligibility filters, every mission, feedback, Career Explorer, the skills journal, next steps, and sample demos. Its appendix includes all ten questionnaire pages. The screenshot archive contains 60 original images, including complete questionnaire pages. All shown responses and results use separate demonstration data.
