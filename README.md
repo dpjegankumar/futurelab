@@ -25,7 +25,7 @@ You need a computer and a browser such as Chrome, Edge, Firefox, or Safari. An i
 6. Open the extracted **futurelab-main** folder. If another folder with that name is inside it, open that too.
 7. Double-click **index.html**. If file extensions are hidden, it may appear as **index** with a browser icon.
 8. If it opens in a text editor, right-click it → **Open with** → select your browser.
-9. You should see **FutureMe Lab** and the heading **“Less guessing. More ‘this is me.’”** Begin with the grade or age form.
+9. You should see **FutureMe Lab** and the heading **“Meet the future you could become.”** Click **Explore missions** to choose a challenge, then set your grade or age. If you are unsure where to start, use **Career Explorer**.
 
 **Keep all downloaded files together in the same folder, including the `school` images, `school.css`, and `school.js`.** Moving only the HTML file will break the app.
 
@@ -60,7 +60,7 @@ Official instructions: [Configure a publishing source for GitHub Pages](https://
 
 ### Step 1: Set your grade or age
 
-1. Find **“What stage are you at?”** on the home screen.
+1. Click **Explore missions**, then find **“What stage are you at?”** on the missions screen.
 2. Under **Tell us your**, choose **Current grade** or **Age**.
 3. Select your grade or age and click **Save and continue**.
 4. Later, use **Change grade / age** on the missions screen or **Change grade or age** in the explorer to edit it.
@@ -69,7 +69,7 @@ Current options cover grades 6–12, college/further study, beyond school, and a
 
 ### Step 2: Explore careers with 50 questions
 
-1. Click **Career explorer** in the top menu or **Find my career directions** on the home screen.
+1. Click **Use Career Explorer** beneath **“Unsure which mission to choose?”** on the home or missions screen, or select **Career explorer** in the top menu.
 2. Imagine yourself trying each activity, even if it is new to you.
 3. Choose one of five answers, from **Not for me** to **I’d love to do this**. There are no correct answers.
 4. Answer all five questions on the page, then click **Next five questions**.
@@ -177,9 +177,13 @@ The app contains all 50 questions, six career interest areas, and three full mis
 The 13-slide pitch covers the student problem, working MVP, illustrative student demo, school adoption proposal, pilot targets, and roadmap. Pilot numbers describe proposed targets, not measured outcomes.
 
 
-## School-themed interface
+## Home and navigation
 
 The home page includes a three-scene feature carousel: a student imagining future careers in a mirror, students exploring interests in a school library, and a classroom career lab. Use the dots or arrows to change scenes, or the Play/Pause control to control rotation. Keyboard arrow navigation and reduced-motion preferences are supported.
 
 Keep school.js, school.css, school-mirror.jpg, school-questions.jpg, and school-missions.jpg beside index.html. These files provide the theme and illustrations.
+
+
+The home page focuses on the feature carousel and a prominent Explore missions button. Missions, Career Explorer, My skills profile, and My next steps open as separate views inside the same app. The Home button or logo returns to the carousel. Browser Back and Forward navigate between views. Keep spa.js and spa.css with the other app files.
+
 
