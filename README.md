@@ -4,6 +4,30 @@ Explore careers through 50 multiple-choice questions and three miniature career 
 
 **No coding, software installation, AI subscription, or API key is needed to use the app.**
 
+## Latest updates — 24 October 2026
+
+- **School-themed design:** illustrations show a student seeing future careers in a mirror, a school library, and a classroom career lab.
+- **Focused home page:** the feature carousel stays on Home, with a prominent **Explore missions** button.
+- **Separate app views:** open Missions, Career Explorer, My skills profile, and My next steps only when needed. Home and the logo return to the welcome screen; browser Back and Forward work between views.
+- **Help choosing a mission:** **“Unsure which mission to choose?”** leads to the optional Career Explorer.
+- **50 multiple-choice questions:** ten pages of five questions, saved answers, answer review, six interest areas, and three suggested career directions with experiments.
+- **Grade or age setup:** visible eligibility labels and mission filtering help students find suitable challenges.
+- **Three complete missions:** software development, product design, and business analysis include clues, hints, reflection, enjoyment ratings, and feedback.
+- **Personal discovery tools:** a skills profile, downloadable journal, next-step experiments, and Alex/Sam sample demonstrations.
+- **Presentation resources:** a 13-slide pitch deck and a 47-slide screenshot user manual, each with a PDF version; the manual covers all ten questionnaire pages. A ZIP contains 60 original screenshots.
+
+### Find your way around
+
+| View | What you can do |
+| --- | --- |
+| Home | Browse the illustrated feature carousel and choose where to start. |
+| Explore missions | Set grade or age, filter challenges, read eligibility, and start or resume a mission. |
+| Career Explorer | Answer the questionnaire, review answers, and explore suggested career directions. |
+| My skills profile | Review completed mission evidence and download your journal. |
+| My next steps | Try suggested experiments and mark those you have completed. |
+
+For illustrated instructions, [download the PowerPoint user manual](FutureMe-Lab-User-Guide.pptx) or [read the PDF](FutureMe-Lab-User-Guide.pdf). Presentation and screenshot downloads are listed below.
+
 ## Choose how to start
 
 - **Use it on your computer:** follow Option 1 below.
@@ -155,6 +179,9 @@ Everyday users can skip this section. The app uses plain HTML, CSS, and JavaScri
 | `style.css` | Layout, colors, and responsive styling |
 | `app.js` | Missions, profiles, feedback, and journal download |
 | `explorer.js` | Questionnaire, career suggestions, grade/age setup, and filters |
+| `school.css` and `school.js` | School theme, illustrated carousel, and its controls |
+| `school-mirror.jpg`, `school-questions.jpg`, `school-missions.jpg` | Home carousel illustrations |
+| `spa.css` and `spa.js` | Focused home page and separate app views with browser navigation |
 | `verify.cjs` | Automated checks for question count, scoring, and eligibility |
 
 If Node.js is already installed, open a terminal in this folder and run:
@@ -176,18 +203,13 @@ The app contains all 50 questions, six career interest areas, and three full mis
 
 The 13-slide pitch covers the student problem, working MVP, illustrative student demo, school adoption proposal, pilot targets, and roadmap. Pilot numbers describe proposed targets, not measured outcomes.
 
-
 ## Home and navigation
 
 The home page includes a three-scene feature carousel: a student imagining future careers in a mirror, students exploring interests in a school library, and a classroom career lab. Use the dots or arrows to change scenes, or the Play/Pause control to control rotation. Keyboard arrow navigation and reduced-motion preferences are supported.
 
 Keep school.js, school.css, school-mirror.jpg, school-questions.jpg, and school-missions.jpg beside index.html. These files provide the theme and illustrations.
 
-
 The home page focuses on the feature carousel and a prominent Explore missions button. Missions, Career Explorer, My skills profile, and My next steps open as separate views inside the same app. The Home button or logo returns to the carousel. Browser Back and Forward navigate between views. Keep spa.js and spa.css with the other app files.
-
-
-
 
 ## Screenshot user manual
 
@@ -196,3 +218,4 @@ The home page focuses on the feature carousel and a prominent Explore missions b
 - [Download the original screenshots](FutureMe-Lab-Screenshots.zip).
 
 The 47-slide manual uses actual app screenshots and numbered steps for Home, grade/age setup, eligibility filters, every mission, feedback, Career Explorer, the skills journal, next steps, and sample demos. Its appendix includes all ten questionnaire pages. The screenshot archive contains 60 original images, including complete questionnaire pages. All shown responses and results use separate demonstration data.
+
