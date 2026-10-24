@@ -168,3 +168,11 @@ Expected result: `Verified: 50 unique questions, normalized recommendations, and
 ## Current scope
 
 The app contains all 50 questions, six career interest areas, and three full missions. Science, people-focused work, and engineering currently suggest small experiments rather than full in-app missions. Mission feedback uses authored rules, with no live AI assessment. Compare questionnaire preferences with actual mission experiences as you explore possible next steps.
+
+## Pitch presentation
+
+- [Download the PowerPoint pitch deck](FutureMe-Lab-Pitch.pptx) with editable slide content and presenter notes.
+- [View the PDF preview](FutureMe-Lab-Pitch.pdf).
+
+The 13-slide pitch covers the student problem, working MVP, illustrative student demo, school adoption proposal, pilot targets, and roadmap. Pilot numbers describe proposed targets, not measured outcomes.
+
