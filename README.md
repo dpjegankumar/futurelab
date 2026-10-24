@@ -27,7 +27,7 @@ You need a computer and a browser such as Chrome, Edge, Firefox, or Safari. An i
 8. If it opens in a text editor, right-click it → **Open with** → select your browser.
 9. You should see **FutureMe Lab** and the heading **“Less guessing. More ‘this is me.’”** Begin with the grade or age form.
 
-**Keep `index.html`, `style.css`, `app.js`, and `explorer.js` together in the same folder.** Moving only the HTML file will break the app.
+**Keep all downloaded files together in the same folder, including the `school` images, `school.css`, and `school.js`.** Moving only the HTML file will break the app.
 
 To return later, reopen the same **index.html** in the same browser. You can bookmark it or create a shortcut. Once downloaded, the core app can work without internet; web fonts may fall back to your computer’s fonts.
 
@@ -134,7 +134,7 @@ Complete at least one mission to populate mission feedback and the mission-based
 | --- | --- |
 | I see GitHub files, not the app | Download and extract the ZIP, then open `index.html`, or use the published Pages address. |
 | I see code instead of a webpage | Right-click `index.html` and use **Open with** to choose a browser. |
-| The page has no styling or its buttons do nothing | Extract the ZIP first and keep all four app files together. Open `index.html`, not `README.md` or a JavaScript file. |
+| The page has no styling or its buttons do nothing | Extract the ZIP first and keep all app files and images together. Open `index.html`, not `README.md` or a JavaScript file. |
 | The next-question button will not continue | Select one answer for each of the five questions. Scroll to find any unanswered question. |
 | A mission will not submit | Answer both questions, explain your reasoning in at least 20 characters, and choose an enjoyment rating. |
 | A mission is missing | Check its eligible learning level and the current grade filter. Change your saved grade/age only if it is incorrect. |
@@ -175,4 +175,11 @@ The app contains all 50 questions, six career interest areas, and three full mis
 - [View the PDF preview](FutureMe-Lab-Pitch.pdf).
 
 The 13-slide pitch covers the student problem, working MVP, illustrative student demo, school adoption proposal, pilot targets, and roadmap. Pilot numbers describe proposed targets, not measured outcomes.
+
+
+## School-themed interface
+
+The home page includes a three-scene feature carousel: a student imagining future careers in a mirror, students exploring interests in a school library, and a classroom career lab. Use the dots or arrows to change scenes, or the Play/Pause control to control rotation. Keyboard arrow navigation and reduced-motion preferences are supported.
+
+Keep school.js, school.css, school-mirror.jpg, school-questions.jpg, and school-missions.jpg beside index.html. These files provide the theme and illustrations.
 
